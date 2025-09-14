@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>label标签</title>
+</head>
+<body>
+    <!-- lable可以增大点击范围 -->
+    性别：
+    <input type="radio" id="male" name="gender">
+    <!-- 第一种方法： label for 属性绑定input id -->
+    <label for="male">男</label>
+    <input type="radio" id="female" name="gender">
+    <label for="female">女</label>
+    <!-- 第二种方法：用label标签包裹即可 -->
+    <label><input type="radio" id="secret" name="gender">第三性别</label>
+    <!-- label标签也可以用到其他表单中 如text checkbox textarea 等等 -->
+</body>
+</html>
